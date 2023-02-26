@@ -1,0 +1,65 @@
+header{
+    background-color: coral;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    color: navy;
+    font-weight: 100px;
+    border: 2px solid navy;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Mynerve', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.cent {
+    text-align: center;
+    width: 100%
+}
+
+li {
+    display: initial;
+    display: block;
+    list-style: none;
+}
+footer {
+    background-color: coral;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 900px ){
+    ul{
+        
+        visibility: visible;
+    }
+   
+    body{
+        background-color: cadetblue;
+    }
+    
+    li {
+        margin-left: 20px;
+        display: block;
+        list-style: none;
+    } 
+
+    footer,
+    header {
+        background-color: darkcyan;
+    }
+
+     
+}

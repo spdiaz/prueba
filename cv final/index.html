@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es"><!--lenguaje español-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" /> <!--hoja de vincilo con CSS-->
+    <title>Curriculum Vitae</title> <!--titulo que aparece en la pesataña del navegador-->
+    <!--links complementarios-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mynerve&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="cent">
+        <img src="img/foto.jpg" alt="Imagen Personal">
+    </div>
+ 
+    <h1 id="mi_titulo"> CURRICULUM  VITAE </h1>
+
+
+    <h2> <u> INFORMACION PERSONAL </u> </h2>
+     <!--botones para ocultar o mostrar-->
+    <button type="button" id="boton_mostrar_inf-per" >Mostrar </button>
+    <button type="button" id="boton_ocultar_inf-per" >ocultar</button>
+    <ul id="lista_inf-per"> <!--ID para hacer modificacion a toda la lista-->
+        <li
+    > <strong> Nombre y Apellido:</strong> Perry Lambert </li>
+        <li> <strong> Dirección:</strong> Pellegrini 8929 </li>
+        <li> <strong> Localidad:</strong> Rosario </li> 
+        <li> <strong> Provincia:</strong> Santa Fe </li>
+        <li> <strong> Telefono:</strong> (272) 790-0888 </li>
+        <li> <strong> Email:</strong> perry.lambert@example.com </li>
+        <li> <strong> Fecha de Nacimiento:</strong> 01/06/1975 </li>
+
+    </ul> 
+
+    <h2> <u> EXPERIENCIA LABORAL </u> </h2>
+    <!--botones para ocultar o mostrar-->
+    <button type="button" id="boton_mostrar_exp-lab" >Mostrar </button>
+    <button type="button" id="boton_ocultar_exp-lab" >ocultar</button>
+    <ul id="lista_exp-lab"> <!--ID para hacer modificacion a toda la lista-->
+        <li> <strong> Junio 2019 - Actualidad:</strong> Programador web - MadridTech</li>
+        <p> Encargado del departamento de programación</p>
+        <li> <strong> Julio 2015 - Mayo 2019:</strong> Programador de aplicaciones MadridInk  </li> 
+        <p> Supervisor del área de desarrollo de apps </p>
+        
+    </ul>
+<!--FALTA EDITAR BOTONES-->
+    <h2> <u> HABILIDADES </u> </h2>
+    <button type="button" onclick="myFunction()">Mostrar</button>
+    <button type="button" onclick="myFunction()">coultar</button>
+    <ul>
+        <li> <strong> Ingles:</strong> Avanzado</li>
+        <li> <strong> Java Script:</strong> Avanzado  </li> 
+                
+    </ul>
+
+
+<script src="js/script.js"></script> <!--vinculo al JAVASCRIPT. simepre al final de todas las funciones JS que haya-->
+
+</body>
+</html>
